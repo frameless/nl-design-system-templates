@@ -1,0 +1,4 @@
+.voorbeeld-formLabel {
+  display: block;
+  margin-block-end: var(--voorbeeld-space-block-beetle);
+}

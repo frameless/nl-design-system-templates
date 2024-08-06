@@ -1,11 +1,10 @@
 'use client';
 import {
+  Article,
   ButtonGroup,
   ButtonLink,
-  Document,
   Heading1,
   Heading2,
-  Heading5,
   Link,
   Page,
   PageContent,
@@ -16,13 +15,15 @@ import {
 import { UtrechtIconArrow } from '@utrecht/web-component-library-react';
 import { ExampleFooter } from '@/components/ExampleFooter/ExampleFooter';
 import { ExampleHeader } from '@/components/ExampleHeader/ExampleHeader';
+import { ExampleNavigation } from '@/components/ExampleNavigation/ExampleNavigation';
 
 export default function Home() {
   return (
-    <Document>
+    <Page>
       <ExampleHeader />
-      <Page>
-        <PageContent>
+      <ExampleNavigation />
+      <PageContent className="voorbeeld-page-content-flex">
+        <Article className="voorbeeld-article-space">
           <Heading1>Meldpunt voor Verdwaalde Sokken</Heading1>
           <Paragraph lead>
             Het &ldquo;Meldpunt voor Verdwaalde Sokken,&ldquo; is een initiatief van onze gemeente met als doel de
@@ -99,9 +100,9 @@ export default function Home() {
               te zijn.
             </UnorderedListItem>
           </UnorderedList>
-        </PageContent>
-        <ExampleFooter />
-      </Page>
-    </Document>
+        </Article>
+      </PageContent>
+      <ExampleFooter />
+    </Page>
   );
 }
