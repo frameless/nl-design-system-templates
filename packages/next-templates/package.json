@@ -14,28 +14,28 @@
     "start": "next start"
   },
   "dependencies": {
-    "@types/node": "20.10.4",
-    "@types/react": "18.2.42",
-    "@types/react-dom": "18.2.17",
-    "next": "13.5.6",
+    "@types/node": "20.10.8",
+    "@types/react": "18.2.79",
+    "@types/react-dom": "18.2.25",
+    "next": "13.5.7",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-hook-form": "7.48.2",
     "typescript": "5.3.3"
   },
   "devDependencies": {
-    "@fontsource/fira-sans": "5.0.18",
+    "@fontsource/fira-sans": "5.0.22",
     "@fontsource/source-serif-pro": "5.0.8",
-    "@next/eslint-plugin-next": "13.5.6",
-    "@nl-design-system-unstable/voorbeeld-design-tokens": "1.0.0-alpha.122",
+    "@next/eslint-plugin-next": "13.5.7",
+    "@nl-design-system-unstable/voorbeeld-design-tokens": "1.0.0-alpha.151",
     "@svgr/webpack": "8.1.0",
     "@tabler/icons-react": "2.42.0",
-    "@utrecht/component-library-css": "3.0.1-alpha.12",
-    "@utrecht/component-library-react": "3.0.1-alpha.14",
+    "@utrecht/component-library-css": "3.0.1-alpha.42",
+    "@utrecht/component-library-react": "3.0.1-alpha.42",
     "@utrecht/components": "2.0.0",
-    "@utrecht/design-tokens": "1.0.0-alpha.607",
+    "@utrecht/design-tokens": "1.0.0",
     "@utrecht/web-component-library-react": "1.0.2",
     "@utrecht/web-component-library-stencil": "1.1.0",
-    "clsx": "2.0.0"
+    "clsx": "2.0.1"
   }
 }

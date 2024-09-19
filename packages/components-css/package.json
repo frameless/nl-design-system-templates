@@ -9,7 +9,7 @@
   ],
   "private": true,
   "devDependencies": {
-    "@babel/core": "7.23.5",
+    "@babel/core": "7.23.9",
     "typescript": "5.3.3",
     "webpack": "5.89.0"
   }
